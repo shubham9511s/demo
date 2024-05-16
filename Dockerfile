@@ -5,7 +5,7 @@ FROM node:20
 WORKDIR /app
 
 # Copy the rest of the application code to the working directory
-COPY . .
+COPY . /app
 
 # Expose the port on which the app runs
 EXPOSE 3000
